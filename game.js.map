@@ -1,0 +1,1 @@
+{"version":3,"file":"game.js","sources":["../src/js/index.js"],"sourcesContent":["console.log('hello WebXR ', AFRAME);\n"],"names":[],"mappings":";EAAA,OAAO,CAAC,GAAG,CAAC,cAAc,EAAE,MAAM,CAAC,CAAC;;;;"}
