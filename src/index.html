@@ -53,6 +53,7 @@
         look-controls
         position="0 2 0"
       >
+        <!-- game end text -->
         <a-text
           id="end"
           align="center"
@@ -63,6 +64,7 @@
           value="You survived, cowboy!\n\nYou really are the fastest gun\nin the whole wild West!"
           visible="false"
         ></a-text>
+        <!-- HUD -->
         <a-text
           id="timer"
           align="left"
@@ -83,6 +85,7 @@
           value="shots\n0"
           visible="false"
         ></a-text>
+        <!-- debugging: show actual VR device Point Of View on desktop -->
         <a-ring
           id="debug_pov"
           color="black"
@@ -119,7 +122,7 @@
         visible="true"
       ></a-entity>
 
-      <!-- enemy outlaws -->
+      <!-- enemy outlaws (added below ground to prevent gaze interaction with them until they're shown -->
       <a-entity
         class="outlaw one"
         position="-1.1 -100.5 -4.5"
@@ -221,6 +224,7 @@
       ></a-entity>
 
       <!-- scenery -->
+      <!-- desert ground -->
       <a-plane
         position="0 0 0"
         rotation="-90 0 0"
@@ -228,6 +232,7 @@
         height="150"
         color="#DBB742"
       ></a-plane>
+      <!-- rocks -->
       <a-icosahedron
         color="#FF926B"
         position="-2 0.25 -4"
@@ -262,6 +267,21 @@
           radius="1"
         ></a-icosahedron>
       </a-icosahedron>
+      <a-icosahedron
+        color="#fda577"
+        position="-40 0.5 -15"
+        rotation="-45 75 0"
+        scale="3 3.2 1"
+        radius="1"
+      ></a-icosahedron>
+      <a-icosahedron
+        color="#fda577"
+        position="-5 0.5 25"
+        rotation="-45 180 0"
+        scale="3 3.2 1"
+        radius="1"
+      ></a-icosahedron>
+      <!-- cactus -->
       <a-cylinder
         color="#086916"
         height="4"
@@ -301,13 +321,6 @@
           radius="0.5"
         ></a-icosahedron>
       </a-cylinder>
-      <a-icosahedron
-        color="#fda577"
-        position="-40 0.5 -15"
-        rotation="-45 75 0"
-        scale="3 3.2 1"
-        radius="1"
-      ></a-icosahedron>
       <a-cylinder
         color="#086916"
         height="4"
@@ -347,13 +360,6 @@
           radius="0.5"
         ></a-icosahedron>
       </a-cylinder>
-      <a-icosahedron
-        color="#fda577"
-        position="-5 0.5 25"
-        rotation="-45 180 0"
-        scale="3 3.2 1"
-        radius="1"
-      ></a-icosahedron>
       <a-cylinder
         color="#086916"
         height="4"
@@ -394,6 +400,7 @@
           radius="0.5"
         ></a-icosahedron>
       </a-cylinder>
+      <!-- sky -->
       <a-sky color="#36C3FF"></a-sky>
 
       <!-- assets -->
