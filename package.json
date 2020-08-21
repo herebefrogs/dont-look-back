@@ -1,5 +1,5 @@
 {
-  "name": "dont-look-back",
+  "name": "dont-look-back-vr",
   "version": "0.1.0",
   "description": "WebXR entry for JS13KGames 2019 (theme: back)",
   "main": "src/js/index.js",

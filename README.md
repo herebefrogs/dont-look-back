@@ -1,4 +1,4 @@
-# Don't Look Back!
+# Don't Look Back VR!
 
 Enjoy the stunning beauty of the Wild West, but beware of outlaws lurking around: They'll keep coming back to pester you more than you can imagine...
 
