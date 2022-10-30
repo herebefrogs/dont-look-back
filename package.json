@@ -18,7 +18,7 @@
     "dev:watch": "chokidar src/index.html -d 0 -c 'npm run-s dev:html_img'"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "chokidar-cli": "^2.0.0",
     "html-inline": "1.2.0",
     "html-minifier": "4.0.0",
